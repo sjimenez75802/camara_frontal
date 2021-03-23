@@ -10,7 +10,7 @@ const io = require("socket.io")(server);
 server.listen(process.env.PORT || 5000, () => console.log(`Server has started.`));
 
 //
-const router = require('./router');
+const router = require('./routers/router');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 io.sockets.on("error", e => console.log(e));
