@@ -7,11 +7,12 @@
     "start": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [ "express", "socket.io"],
+  "author": "Santiago Jimenez",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0"
   }
 }
