@@ -7,10 +7,14 @@
     "start": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [ "express", "socket.io"],
+  "keywords": [
+    "express",
+    "socket.io"
+  ],
   "author": "Santiago Jimenez",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "socket.io": "^4.0.0"
